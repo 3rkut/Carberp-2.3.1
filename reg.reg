@@ -1,0 +1,141 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ThinComputingInc\BeTwin]
+"EnableRDP"=dword:00000001
+"ClearCubeMax"=dword:00000001
+"SoftwareRevisionLevel"=dword:00000000
+"RdpRevisionLevel"=dword:00040005
+"limitblankpassworduseforrdpclient"=dword:00000000
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+"limitblankpassworduseforrdpclient"=dword:00000000
+"limitblankpassworduse"=dword:00000000
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ThinComputingInc\BeTwin\BTS#0]
+"ClassGUID"="{8dd21b99-9a46-4f0f-b18f-4bd786caf9ee}"
+"DeviceReference"=dword:80867190
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ThinComputingInc\BeTwin\Diagnostics]
+@=""
+
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService]
+"ErrorControl"=dword:00000001
+"ObjectName"="LocalSystem"
+"Start"=dword:00000002
+"DependOnService"=hex(7):52,00,50,00,43,00,53,00,53,00,00,00,00,00
+"Type"=dword:00000010
+"ImagePath"=hex(2):53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,42,00,\
+  65,00,54,00,77,00,69,00,6e,00,53,00,65,00,72,00,76,00,69,00,63,00,65,00,58,\
+  00,50,00,2e,00,65,00,78,00,65,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService\Parameters]
+"ServiceDll"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
+  00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,\
+  74,00,65,00,72,00,6d,00,73,00,72,00,76,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermService\Performance]
+"Close"="CloseTSObject"
+"Collect Timeout"=dword:000003e8
+"Collect"="CollectTSObjectData"
+"Open Timeout"=dword:000003e8
+"Open"="OpenTSObject"
+"Library"="perfts.dll"
+"Last Counter"=dword:00000886
+"Last Help"=dword:00000887
+"First Counter"=dword:00000806
+"First Help"=dword:00000807
+"Object List"="2054 2176 2054 2176"
+"Library Validation Code"=hex:00,60,29,e3,1a,85,c4,01,00,30,00,00,00,00,00,00
+
+
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinVideo]
+"ErrorControl"=dword:00000000
+"Group"="Video Init"
+"Start"=dword:00000000
+"Type"=dword:00000001
+"ImagePath"="System32\\drivers\\BeTwinVF.sys"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinVideo\Parameters]
+@=""
+"DualViewPrimaryDisplay"=hex(7):5c,00,44,00,65,00,76,00,69,00,63,00,65,00,5c,\
+  00,56,00,69,00,64,00,65,00,6f,00,30,00,00,00,00,00
+"DualViewSecondaryDisplay"=hex(7):5c,00,44,00,65,00,76,00,69,00,63,00,65,00,5c,\
+  00,56,00,69,00,64,00,65,00,6f,00,31,00,00,00,00,00
+"DisableVgaDriver"=dword:00000000
+"PriorityBoost"=dword:00000000
+"AllowHostAccess"=dword:00000000
+"HookDisplayDriver"=dword:00000000
+"EnableWDDM"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinVideo\Video]
+"Service"="BeTwinVideo"
+"VideoID"="{DC22CEA6-4768-11DF-A8FC-806D6172696F}"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinVideo\Enum]
+"0"="Root\\LEGACY_BETWINVIDEO\\0000"
+"Count"=dword:00000001
+"NextInstance"=dword:00000001
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinSystem]
+"ImagePath"="System32\\Drivers\\BeTwinSystem.sys"
+"ErrorControl"=dword:00000000
+"Group"="BeTwin"
+"Start"=dword:00000001
+"Type"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinSystem\Enum]
+@=""
+"0"="Root\\LEGACY_BETWINSYSTEM\\0000"
+"Count"=dword:00000001
+"NextInstance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinSystem\Parameters]
+@=""
+
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinMouse]
+"ErrorControl"=dword:00000000
+"Group"="Base"
+"Start"=dword:00000003
+"Type"=dword:00000001
+"ImagePath"="System32\\drivers\\BeTwinMF.sys"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinMouse\Parameters]
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinKeyboard]
+"ErrorControl"=dword:00000000
+"Group"="Base"
+"Start"=dword:00000003
+"Type"=dword:00000001
+"ImagePath"="System32\\drivers\\BeTwinKF.sys"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinKeyboard\Parameters]
+@=""
+
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BeTwinDD]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"GinaDLL"="xtgina.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TermServMonitor]
+"btw"=dword:00000001
+"rb"=dword:00000001
+
+
+
